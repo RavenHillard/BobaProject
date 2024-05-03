@@ -1,0 +1,96 @@
+body{
+    background-color: #f0af91;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #f0af91;
+    background: white;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 150ms ease-in-out;
+  }
+
+  button:hover {
+    background: white;
+    cursor: pointer;
+  }
+.container{
+    max-width: 600px;
+    background: white;
+    padding:20px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+.theme-button{
+    font-size: 10px;
+    background: black;
+    color: white;
+    padding: 5 8px;
+}
+.theme-button:hover{
+    color:black;
+    background: white;
+}
+.milktea{
+    border-radius: 10px;
+    transition:all 150ms ease-in-out;
+}
+.milktea:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    filter:contrast(80%);
+}
+footer{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.grid{
+    display:grid;
+    margin: 15px 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.grid img{
+    width: 100%;
+    border-radius: 8px;
+    transition:all 150ms ease-in-out;
+}
+.grid img:hover{
+    transform:scale(1.5);
+}
+.dark{
+    background: black;
+    color:white;
+}
+.dark .container {
+    background: rgb(255, 255, 255, 0.1);
+}
+.dark a {
+    color: #f0af91;
+}
+.dark .theme-button:hover{
+    background: #f0af91;
+}
+a{
+    text-decoration: none;
+    color:#f0af91;
+}
+a:hover{
+    text-decoration: underline;
+}
